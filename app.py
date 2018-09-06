@@ -21,7 +21,7 @@ def zipSplit(string):
 
 
 def distance(original, destination):
-    distance_API_KEY = 'AIzaSyDYySzpPkj2WDGrOwME2LTC3b5yBBHN4NQ'
+    distance_API_KEY = ''
     # org = '25+arden+road+west+hartford+connecticut'
     # dest = 'cocc+southington+ct'
     url2 = 'https://maps.googleapis.com/maps/api/distancematrix/json?origins=' + original + '&destinations=' + destination + '&key=' + distance_API_KEY + ''
