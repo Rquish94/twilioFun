@@ -5,13 +5,7 @@ from weather import Weather
 from pprint import pprint
 import requests
 
-#
-# client = Client("AC193c5eb63ec1425bfa176660f0dbce2d", "5f822f7cd8eed94719b711bfa77fa8a8")
-#
-# client.messages.create(to="+17818792907",
-#                       from_="+19597774928",
-#                        body="Hi maureen please respond to this with a simple response for i am not yet programmed for advanced input. Exp: Hello,hello,hi,Hi")
-#
+
 
 def getWeather(place):
     weekly_Summary = []
